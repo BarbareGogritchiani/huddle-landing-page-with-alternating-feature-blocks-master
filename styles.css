@@ -102,3 +102,41 @@
 .flow-text p {
   padding-top: 2rem;
 }
+.last {
+  padding-bottom: 10rem;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+}
+.footer-div {
+  display: flex;
+  gap: 1rem;
+}
+.footer-logo {
+  padding-bottom: 3rem;
+}
+.logos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.logo-text {
+  color: hsl(208, 11%, 55%);
+}
+.logo-div {
+  display: flex;
+  gap: 1rem;
+}
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 6rem;
+}
+.footer-list li {
+  color: hsl(208, 11%, 55%);
+}
